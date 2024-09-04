@@ -29,16 +29,16 @@
                 }
             }
             button{
-                padding:0.6em 1.2em;
-                color:$secondary-color;
-                background:#d2691e;
+                padding:0.5em 1.5em;
+                color:$primary-color;
+                background: $secondary-color;
                 font-size: 1.1em;
                 border:none;
                 border-radius:12px;
                 transition: box-shadow 0.3s ease-in-out;
             }
             button:hover{
-                box-shadow: 0 0 20px rgba(180, 54, 73, 0.9);
+                box-shadow: 0 0 20px $accent-color;
             }
         }
     }

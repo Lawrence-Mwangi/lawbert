@@ -21,8 +21,8 @@ const closeNav = () => {
         
         <div class="nav_links" :class="{ 'active': isNavOpen }">
             <ul>
-                <li><router-link :to="{ name:'about' }">About</router-link></li>
                 <li><router-link :to="{ name:'products' }">Shoes</router-link></li>
+                <li><router-link :to="{ name:'about' }">About</router-link></li>
                 <li> <router-link :to="{ name:'arrives' }">Arrives</router-link> </li>
                 <li> <router-link :to="{ name:'contact' }">Contact</router-link></li>
             </ul>

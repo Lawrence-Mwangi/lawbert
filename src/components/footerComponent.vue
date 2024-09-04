@@ -11,9 +11,10 @@
 
             <div class="footer_links">
                 <h2>Explore</h2>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Arrives</a></li>
+                <li><router-link :to="{ name:'products' }">Shoes</router-link></li>
+                <li><router-link :to="{ name:'arrives' }">Arrives</router-link></li>
+                <li><router-link :to="{ name:'contact' }">Contact</router-link></li>
+                <li><router-link :to="{ name:'about' }">About</router-link></li>
             </div>
 
             <div class="footer_social">
