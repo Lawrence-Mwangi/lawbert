@@ -1,0 +1,18 @@
+//global styles for the website
+@import '_variables';
+@import '_mixins';
+@import 'global';
+
+
+//partilas styles
+@import 'navbar';
+@import 'footer';
+
+
+
+
+//main styles for the website
+@import 'hero';
+@import 'content';
+@import 'contact';
+@import 'about';

@@ -1,0 +1,138 @@
+.content_container{
+    .content_items{
+        @include grid(2);
+
+        .content_infor{
+            h3{
+                padding-bottom: 0.9em;
+            }
+
+            p{
+                padding: 0.5em 0
+            }
+        }
+
+        .img{
+            @include flex_center;
+            position: relative;
+
+            img{
+                width: 85%;
+                height: 50vh;
+                border-radius: 24px;
+            }
+
+            .text{
+                position: absolute;
+                top: 2%;
+                left: 30%;
+                color: $primary-color;
+                font-size: 1.2em;
+                font-weight: 550;
+            }
+        }
+    }
+
+    .collection{
+        h2{
+            padding-bottom: 0.9em;
+        }
+
+        .collection_items{
+            @include grid(4);
+
+            p{
+                padding: 0.2em 0;
+                font-size: 1em;
+            }
+
+            .collection_infor{
+                box-shadow: 1px 1px 2px $secondary-color;
+                padding: 0.8em;
+                border-radius: 12px;
+
+                .img{
+                    @include flex_center;
+                    
+                    img{
+                        width: 60%;
+                        height: 30vh;
+                        border-radius: 12px;
+                    }
+                }
+
+                .price{
+                    color:$success-color;
+                    font-weight: 550;
+                }
+
+                .group{
+                    @include flex_center;
+                    justify-content: left;
+                    gap: 1.2em;
+                    padding: 0.5em 0;
+
+                    .status{
+                        border: 1px solid $secondary-color;
+                        padding: 0 0.3em;
+                        background: $success-color;
+                        color: $primary-color;
+                        border-radius: 8px;
+                    }
+
+                    .sold{
+                        background: $danger-color;
+                    }
+                }
+            }
+            
+            button{
+                padding: 0.5em 1.2em;
+                border: none;
+                border-radius: 4px;
+                background: $secondary-color;
+
+                a{
+                    text-decoration: none;
+                    color:$primary-color;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .call_action{
+        @include flex_center;
+        padding: 2em  0;
+
+        button{
+            padding: 0.8em 1.8em;
+            border: none;
+            border-radius: 4px;
+            background: $secondary-color;
+
+            a{
+                text-decoration: none;
+                color:$primary-color;
+                font-size: 1.1em;
+            }
+        }
+    }
+
+    .infor{
+        h2,p{
+            padding: 0.5em 0;     
+        }
+    }
+}
+
+
+@media screen and (width <=726px) {
+    .content_container{
+        .content_items{
+            .img{
+                display: none;
+            }
+        }
+    }
+}

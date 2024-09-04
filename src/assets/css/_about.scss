@@ -1,0 +1,43 @@
+.about_container{
+    .about_history{
+        @include grid(2);
+        padding: 0.9em 0;
+
+        .image{
+            @include flex_center;
+
+            img{
+                width: 80%;
+                height: 45vh;
+                border-radius: 16px 0 16px 0;
+            }
+        }
+
+        .history{
+            p{
+                padding: 0.5em 0;
+                font-size: 1.1em;
+            }
+        }
+    }
+
+    .Our_moto{
+        padding: 0.5em 0;
+
+        .lawbert_vission{
+            @include grid(2);
+            padding: 0.9em 0;
+        }
+    }
+}
+
+
+@media screen and (width <=726px) {
+    .about_container{
+        .about_history{
+            .image{
+                display: none;
+            }
+        }
+    }
+}
