@@ -7,7 +7,7 @@
             <p>Discover Affordable Comfort and Style in Every Step with LawBert Shoes</p>
             <div class="btn">
                 <button>
-                    <router-link :to="{ name:'about' }">Explore More</router-link>
+                    <router-link :to="{ name:'products' }">Explore More</router-link>
                 </button>
 
                 <button>
