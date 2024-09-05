@@ -19,7 +19,7 @@
 
             <div class="footer_social">
                 <h2>Contact</h2>
-                <a href="https://wa.me/254769696309?text='Lawbert shoes'">
+                <a href="https://wa.me/254799509242?text='Lawbert shoes'">
                     <img src="../assets/images/whatsapp.png" alt="whatapp icon">
                 </a>
 

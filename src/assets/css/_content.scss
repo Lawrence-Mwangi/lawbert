@@ -74,11 +74,10 @@
                     padding: 0.5em 0;
 
                     .status{
-                        border: 1px solid $secondary-color;
                         padding: 0 0.3em;
-                        background: $success-color;
-                        color: $primary-color;
+                        color: $success-color;
                         border-radius: 8px;
+                        font-weight: 550;
                     }
 
                     .sold{
