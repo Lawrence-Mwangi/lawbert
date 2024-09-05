@@ -107,7 +107,7 @@ import Footer from '@/components/footerComponent.vue'
                     </div>
                     <div class="group">
                         <p>Name: <span>Nike SB</span></p>
-                        <p class="price">Ksh. 1,300</p>
+                        <p class="price">Ksh. 1,400</p>
                     </div>
                     <p>Color: <strong>Purple & blue</strong></p>
                     <div class="group">
@@ -179,7 +179,7 @@ import Footer from '@/components/footerComponent.vue'
                     </div>
                     <div class="group">
                         <p>Name: <span>Nike SB</span></p>
-                        <p class="price">Ksh. 1,300</p>
+                        <p class="price">Ksh. 1,400</p>
                     </div>
                     <p>Color: <strong>White & Black</strong></p>
                     <div class="group">
@@ -197,7 +197,7 @@ import Footer from '@/components/footerComponent.vue'
                     </div>
                     <div class="group">
                         <p>Name: <span>J1 low cut</span></p>
-                        <p class="price">Ksh. 1,300</p>
+                        <p class="price">Ksh. 1,400</p>
                     </div>
                     <p>Color: <strong>White & Red</strong></p>
                     <div class="group">

@@ -86,7 +86,7 @@
                     </div>
                     <div class="group">
                         <p>Name: <span>Nike SB</span></p>
-                        <p class="price">Ksh. 1,800</p>
+                        <p class="price">Ksh. 1,400</p>
                     </div>
                     <p>Color: <strong>Blue & Purple</strong></p>
                     <div class="group">
