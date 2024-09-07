@@ -21,7 +21,7 @@ import Footer from '@/components/footerComponent.vue'
                     </div>
                     <p>Color: <strong>Red & black</strong></p>
                     <div class="group">
-                        <p class="status">Available</p>
+                        <p class="status sold">Sold</p>
                         <p>Size: <strong>No.40</strong></p>
                     </div>
                     <button>
