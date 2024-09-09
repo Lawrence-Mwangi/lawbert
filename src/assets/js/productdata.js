@@ -208,7 +208,7 @@ export const products = [
     },
 
     {
-        name: 'J3',
+        name: 'J1 low cut',
         price: 1500,
         color: 'Blue',
         status: 'Available',
