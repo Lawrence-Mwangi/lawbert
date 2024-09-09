@@ -12,8 +12,8 @@ import { products } from '@/assets/js/productdata.js';
 
     <div class="product_container main_container content_container">
         <div class="collection">
-        <h2>Our Collection</h2>
-        <p>We have <strong>{{ products.length }}</strong> Shoes in our Collection</p>
+            <h2>Our Collection</h2>
+            <p>We have <strong>{{ products.length }}</strong> Shoes in our Collection</p>
 
             <div class="collection_items">
                 <div v-for="(product, index) in products" :key="index">
