@@ -15,7 +15,7 @@ import Footer from '@/components/footerComponent.vue'
             </div>
 
             <div class="contact_form">
-                <form>
+                <form  name="contact" netlify>
                     <div class="input_group">
                         <div class="name">
                             <input type="text" name="first_name" id="first_name" placeholder="Enter first name" required>
