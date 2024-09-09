@@ -1,7 +1,7 @@
 // the Products listed here for better accessiblity
 export const products = [
     {
-        name: 'Crocodile',
+        name: 'yeezy 450',
         price: 1400,
         color: 'Brown',
         status: 'Available',
