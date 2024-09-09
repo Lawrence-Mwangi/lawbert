@@ -38,6 +38,10 @@
             padding-bottom: 0.9em;
         }
 
+        p{
+            padding-bottom: 0.9em;
+        }
+
         .collection_items{
             @include grid(4);
 
