@@ -118,15 +118,6 @@ export const products = [
     },
 
     {
-        name: 'Air Force',
-        price: 1400,
-        color: 'Orange',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image17.jpeg',
-    },
-
-    {
         name: 'Adidas',
         price: 1400,
         color: 'White',
