@@ -6,7 +6,7 @@ export const products = [
         color: 'Brown',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image1.jpeg',
+        image: '/assets/images/image1.jpeg',
     },
 
     {
@@ -15,7 +15,7 @@ export const products = [
         color: 'Pink',
         status: 'Available',
         size: 'No.36',
-        image: '/src/assets/images/image2.jpeg',
+        image: '/assets/images/image2.jpeg',
     },
 
     {
@@ -24,7 +24,7 @@ export const products = [
         color: 'White & Black',
         status: 'Available',
         size: 'No.36',
-        image: '/src/assets/images/image3.jpeg',
+        image: '/assets/images/image3.jpeg',
     },
 
     {
@@ -33,7 +33,7 @@ export const products = [
         color: 'White',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image5.jpeg',
+        image: '/assets/images/image5.jpeg',
     },
 
     {
@@ -42,7 +42,7 @@ export const products = [
         color: 'Pink & Pruple',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image6.jpeg',
+        image: '/assets/images/image6.jpeg',
     },
 
     {
@@ -51,7 +51,7 @@ export const products = [
         color: 'Red & White',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image7.jpeg',
+        image: '/assets/images/image7.jpeg',
     },
 
     {
@@ -60,7 +60,7 @@ export const products = [
         color: 'Black',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image9.jpeg',
+        image: '/assets/images/image9.jpeg',
     },
 
     {
@@ -69,7 +69,7 @@ export const products = [
         color: 'Brown',
         status: 'Available',
         size: 'No.36',
-        image: '/src/assets/images/image10.jpeg',
+        image: '/assets/images/image10.jpeg',
     },
 
     {
@@ -78,7 +78,7 @@ export const products = [
         color: 'White & Black',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image11.jpeg',
+        image: '/assets/images/image11.jpeg',
     },
 
     {
@@ -87,7 +87,7 @@ export const products = [
         color: 'White & Red',
         status: 'Available',
         size: 'No.36',
-        image: '/src/assets/images/image12.jpeg',
+        image: '/assets/images/image12.jpeg',
     },
 
     {
@@ -96,7 +96,7 @@ export const products = [
         color: 'Brown & Black',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image14.jpeg',
+        image: '/assets/images/image14.jpeg',
     },
 
     {
@@ -105,7 +105,7 @@ export const products = [
         color: 'grey & Pink',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image15.jpeg',
+        image: '/assets/images/image15.jpeg',
     },
 
     {
@@ -114,7 +114,7 @@ export const products = [
         color: 'White',
         status: 'Available',
         size: 'No.43',
-        image: '/src/assets/images/image16.jpeg',
+        image: '/assets/images/image16.jpeg',
     },
 
     {
@@ -123,7 +123,7 @@ export const products = [
         color: 'Orange',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image17.jpeg',
+        image: '/assets/images/image17.jpeg',
     },
 
     {
@@ -132,7 +132,7 @@ export const products = [
         color: 'White',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image18.jpeg',
+        image: '/assets/images/image18.jpeg',
     },
 
     {
@@ -141,7 +141,7 @@ export const products = [
         color: 'White & Green',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image19.jpeg',
+        image: '/assets/images/image19.jpeg',
     },
 
     {
@@ -150,7 +150,7 @@ export const products = [
         color: 'White & Black',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image21.jpeg',
+        image: '/assets/images/image21.jpeg',
     },
 
     {
@@ -159,7 +159,7 @@ export const products = [
         color: 'White & Red',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image22.jpeg',
+        image: '/assets/images/image22.jpeg',
     },
 
     {
@@ -168,7 +168,7 @@ export const products = [
         color: 'grey & ligth Blue',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image23.jpeg',
+        image: '/assets/images/image23.jpeg',
     },
     
     {
@@ -177,7 +177,7 @@ export const products = [
         color: 'Blue',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image24.jpeg',
+        image: '/assets/images/image24.jpeg',
     },
 
     {
@@ -186,7 +186,7 @@ export const products = [
         color: 'ligth Brown',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image25.jpeg',
+        image: '/assets/images/image25.jpeg',
     },
 
     {
@@ -195,7 +195,7 @@ export const products = [
         color: 'White',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image26.jpeg',
+        image: '/assets/images/image26.jpeg',
     },
 
     {
@@ -204,7 +204,7 @@ export const products = [
         color: 'pink & White',
         status: 'Available',
         size: 'No.38',
-        image: '/src/assets/images/image27.jpeg',
+        image: '/assets/images/image27.jpeg',
     },
 
     {
@@ -213,7 +213,7 @@ export const products = [
         color: 'Blue',
         status: 'Available',
         size: 'No.40',
-        image: '/src/assets/images/image28.jpeg',
+        image: '/assets/images/image28.jpeg',
     },
 ];
   
