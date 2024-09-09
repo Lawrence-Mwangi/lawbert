@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { products } from '@/assets/js/productdata.js';
+</script>
 
 
 <template>
@@ -24,78 +26,26 @@
 
         <div class="collection main_container">
             <h2>Our collection</h2>
-            
+        
             <div class="collection_items">
-                <div class="collection_infor">
-                    <div class="img">
-                        <img src="/src/assets/images/image12.jpeg" alt="shoe Image">
+                <div v-for="(product, index)  in products.slice(0, 4)" :key="index">
+                    <div class="collection_infor">
+                        <div class="img">
+                            <img :src="product.image" :alt="`Image of ${product.name}`" />
+                        </div>
+                        <div class="group">
+                            <p>Name: <span>{{ product.name }}</span></p>
+                            <p class="price">Ksh. {{ product.price }}</p>
+                        </div>
+                        <p>Color: <strong>{{ product.color }}</strong></p>
+                        <div class="group">
+                            <p class="status">Available</p>
+                            <p>Size: <strong>{{ product.size }}</strong></p>
+                        </div>
+                        <button>
+                            <a :href="'https://wa.me/254769696309?text=' + encodeURIComponent('Lawbert shoes, inquiry about ' + product.name)" target="_blank">Inquire Now</a>
+                        </button>
                     </div>
-                    <div class="group">
-                        <p>Name: <span>J1 low cut</span></p>
-                        <p class="price">Ksh. 1,400</p>
-                    </div>
-                    <p>Color: <strong>White & Red</strong></p>
-                    <div class="group">
-                        <p class="status">Available</p>
-                        <p>Size: <strong>No.36</strong></p>
-                    </div>
-                    <button>
-                        <a href="https://wa.me/254769696309?text='Lawbert shoes'" target="_blank">Inquire Now</a>
-                    </button>
-                </div>
-
-                <div class="collection_infor">
-                    <div class="img">
-                        <img src="/src/assets/images/image11.jpeg" alt="shoe Image">
-                    </div>
-                    <div class="group">
-                        <p>Name: <span>Nike SB</span></p>
-                        <p class="price">Ksh. 1,400</p>
-                    </div>
-                    <p>Color: <strong>White & Black</strong></p>
-                    <div class="group">
-                        <p class="status">Available</p>
-                        <p>Size: <strong>No.41</strong></p>
-                    </div>
-                    <button>
-                        <a href="https://wa.me/254769696309?text='Lawbert shoes'" target="_blank">Inquire Now</a>
-                    </button>
-                </div>
-
-                <div class="collection_infor">
-                    <div class="img">
-                        <img src="/src/assets/images/image9.jpeg" alt="shoe Image">
-                    </div>
-                    <div class="group">
-                        <p>Name: <span>Air Force</span></p>
-                        <p class="price">Ksh. 1,800</p>
-                    </div>
-                    <p>Color: <strong>Black</strong></p>
-                    <div class="group">
-                        <p class="status ">Available</p>
-                        <p>Size: <strong>No.42</strong></p>
-                    </div>
-                    <button>
-                        <a href="https://wa.me/254769696309?text='Lawbert shoes'" target="_blank">Inquire Now</a>
-                    </button>
-                </div>
-
-                <div class="collection_infor">
-                    <div class="img">
-                        <img src="/src/assets/images/image6.jpeg" alt="shoe Image">
-                    </div>
-                    <div class="group">
-                        <p>Name: <span>Nike SB</span></p>
-                        <p class="price">Ksh. 1,400</p>
-                    </div>
-                    <p>Color: <strong>Blue & Purple</strong></p>
-                    <div class="group">
-                        <p class="status">Available</p>
-                        <p>Size: <strong>No.38</strong></p>
-                    </div>
-                    <button>
-                        <a href="https://wa.me/254769696309?text='Lawbert shoes'" target="_blank">Inquire Now</a>
-                    </button>
                 </div>
             </div>
 
