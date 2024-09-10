@@ -100,15 +100,6 @@ export const products = [
     },
 
     {
-        name: 'Air Force',
-        price: 1400,
-        color: 'grey & Pink',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image15.jpeg',
-    },
-
-    {
         name: 'J11',
         price: 1700,
         color: 'White',
@@ -124,24 +115,6 @@ export const products = [
         status: 'Available',
         size: 'No.38',
         image: '/assets/images/image18.jpeg',
-    },
-
-    {
-        name: 'Air Force',
-        price: 1400,
-        color: 'White & Green',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image19.jpeg',
-    },
-
-    {
-        name: 'J1 Low cut',
-        price: 1500,
-        color: 'White & Black',
-        status: 'Available',
-        size: 'No.38',
-        image: '/assets/images/image21.jpeg',
     },
 
     {
