@@ -45,14 +45,6 @@ export const products = [
         image: '/assets/images/image6.jpeg',
     },
 
-    {
-        name: 'J1 Low Cut',
-        price: 1400,
-        color: 'Red & White',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image7.jpeg',
-    },
 
     {
         name: 'Air Force',
@@ -83,7 +75,7 @@ export const products = [
 
     {
         name: 'J1 low cut',
-        price: 1050,
+        price: 1300,
         color: 'White & Red',
         status: 'Available',
         size: 'No.36',
@@ -171,13 +163,13 @@ export const products = [
         image: '/assets/images/image27.jpeg',
     },
 
-    {
-        name: 'J1 low cut',
-        price: 1500,
-        color: 'Blue',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image28.jpeg',
-    },
+    // {
+    //     name: 'J1 low cut',
+    //     price: 1500,
+    //     color: 'Blue',
+    //     status: 'Available',
+    //     size: 'No.40',
+    //     image: '/assets/images/image28.jpeg',
+    // },
 ];
   
