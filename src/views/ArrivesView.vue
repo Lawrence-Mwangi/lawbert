@@ -12,7 +12,7 @@ import { products } from '@/assets/js/arrivesdata.js';
       <h1>Our New Arrives</h1>
 
         <div class="collection">
-            <p>Here are our new arrives for <strong>(20/09/2024)</strong></p>
+            <p>Here are our new arrives for <strong>(17/10/2024)</strong></p>
             <div class="collection_items">
                 <div v-for="(product, index) in products" :key="index">
                     <div class="collection_infor">

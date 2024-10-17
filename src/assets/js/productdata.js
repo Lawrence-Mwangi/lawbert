@@ -1,67 +1,67 @@
 // the Products listed here for better accessiblity
 export const products = [
     {
-        name: 'yeezy 450',
+        name: 'J1 lowcut',
         price: 1400,
-        color: 'Brown',
+        color: 'White & grey',
         status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image1.jpeg',
+        size: 'No.38',
+        image: '/assets/images/shoe5.jpg',
     },
 
     {
-        name: 'Air Max',
-        price: 1300,
-        color: 'Pink',
+        name: 'Vans',
+        price: 1500,
+        color: 'Red & black',
         status: 'Available',
-        size: 'No.36',
-        image: '/assets/images/image2.jpeg',
+        size: 'No.38',
+        image: '/assets/images/shoe11.jpg',
     },
 
     {
-        name: 'Air Force',
-        price: 1400,
-        color: 'White & Black',
-        status: 'Available',
-        size: 'No.36',
-        image: '/assets/images/image3.jpeg',
-    },
-
-    {
-        name: 'Air Force',
+        name: 'Alexander',
         price: 1400,
         color: 'White',
         status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image5.jpeg',
+        size: 'No.36',
+        image: '/assets/images/shoe10.jpg',
+    },
+
+    {
+        name: 'Anta',
+        price: 1600,
+        color: 'grey & Black',
+        status: 'Available',
+        size: 'No.41',
+        image: '/assets/images/shoe6.jpg',
     },
 
     {
         name: 'Nike SB',
-        price: 1400,
-        color: 'Pink & Pruple',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image6.jpeg',
-    },
-
-
-    {
-        name: 'Air Force',
-        price: 1800,
-        color: 'Black',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image9.jpeg',
-    },
-
-    {
-        name: 'J1 Low Cut',
         price: 1500,
-        color: 'Brown',
+        color: 'blue & White',
         status: 'Available',
-        size: 'No.36',
-        image: '/assets/images/image10.jpeg',
+        size: 'No.40',
+        image: '/assets/images/shoe7.jpg',
+    },
+
+
+    {
+        name: 'J1',
+        price: 1400,
+        color: 'black & pink',
+        status: 'Available',
+        size: 'No.38',
+        image: '/assets/images/shoe13.jpg',
+    },
+
+    {
+        name: 'New Balance',
+        price: 1100,
+        color: 'black & white',
+        status: 'Available',
+        size: 'No.38',
+        image: '/assets/images/shoe2.jpg',
     },
 
     {
@@ -71,15 +71,6 @@ export const products = [
         status: 'Available',
         size: 'No.40',
         image: '/assets/images/image11.jpeg',
-    },
-
-    {
-        name: 'J1 low cut',
-        price: 1300,
-        color: 'White & Red',
-        status: 'Available',
-        size: 'No.36',
-        image: '/assets/images/image12.jpeg',
     },
 
     {
@@ -128,30 +119,12 @@ export const products = [
     },
     
     {
-        name: 'J3',
-        price: 1500,
-        color: 'Blue',
-        status: 'Available',
-        size: 'No.40',
-        image: '/assets/images/image24.jpeg',
-    },
-
-    {
         name: 'Puma',
         price: 1500,
         color: 'ligth Brown',
         status: 'Available',
         size: 'No.40',
         image: '/assets/images/image25.jpeg',
-    },
-
-    {
-        name: 'Air Force',
-        price: 1500,
-        color: 'White',
-        status: 'Available',
-        size: 'No.38',
-        image: '/assets/images/image26.jpeg',
     },
 
     {
